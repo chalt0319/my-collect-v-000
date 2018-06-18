@@ -10,5 +10,5 @@ students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
 
 def my_collect(languages) do |languages|
   languages.upcase 
-end 
+  end 
 end 
