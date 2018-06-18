@@ -13,9 +13,11 @@ def my_collect(array)
   counter = 0 
   while counter < array.length 
     empty_array << yield array[counter]
+    counter += 1 
   end 
+  empty_array
 end 
 
-my_collect(languages) do |i|
-  i.upcase 
+my_collect(languages) do |x|
+  x.upcase 
 end 
