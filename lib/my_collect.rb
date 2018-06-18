@@ -8,7 +8,9 @@ students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
    # counter += 1 
   #end 
 
-def my_collect(languages) do |languages|
-  languages.upcase 
-  end 
+def my_collect(languages) 
+  empty_array = []
+  yield(languages[i])
 end 
+
+yield
