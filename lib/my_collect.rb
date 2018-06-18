@@ -10,7 +10,9 @@ students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
 
 def my_collect(languages) 
   empty_array = []
-  yield(languages[i])
+  empty_array << yield(languages[i])
 end 
 
-yield
+my_collect(languages) do |i|
+  i.upcase 
+end 
