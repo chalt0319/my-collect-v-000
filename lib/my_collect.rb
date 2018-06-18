@@ -8,7 +8,7 @@ students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
    # counter += 1 
   #end 
 
-def my_collect(languages) 
+def my_collect(array) 
   empty_array = []
   empty_array << yield
 end 
