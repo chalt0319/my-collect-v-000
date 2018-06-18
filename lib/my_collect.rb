@@ -1,2 +1,2 @@
-my_collect(empty_array) do |x|
+my_collect(languages) do |x|
   
