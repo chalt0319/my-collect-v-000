@@ -10,7 +10,7 @@ students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
 
 def my_collect(languages) 
   empty_array = []
-  empty_array << yield(languages[i])
+  empty_array << yield
 end 
 
 my_collect(languages) do |i|
